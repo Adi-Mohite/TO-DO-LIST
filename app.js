@@ -17,6 +17,12 @@ function addTask(){
     saveDate()
 }
 
+inputBox.addEventListener("keypress", function (e) {
+    if (e.key === "Enter") {
+        addTask();
+    }
+});
+
 ListContainer.addEventListener("click",function(e){
     if(e.target.tagName === "LI"){
         e.target.classList.toggle("Checked");
