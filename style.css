@@ -48,11 +48,17 @@ button{
     border: none;
     outline:none;
     padding: 16px 50px;
-    background-color: rgb(255, 142, 12);
-    color: rgb(238, 226, 212);
+    background-color: rgb(207, 121, 9);
+    color: whitesmoke;
     font-size: 16px;
     cursor: pointer;
     border-radius: 40px;
+}
+button:hover{
+    background-color: rgb(255, 169, 10);
+      box-shadow: 0 0 10px 0 rgb(255, 169, 10);
+      color: white;
+
 }
 ul li{
     list-style: none;
